@@ -1,0 +1,47 @@
+$accent: #a3bbc8;
+$default: #636362;
+$title: #1a1a1a;
+$bg: #f6f6f6;
+
+
+
+
+%rubik-400 {
+    font-family: 'Rubik-Regular',
+        sans-serif;
+    font-weight: 400;
+}
+
+%rubik-500 {
+    font-family: 'Rubik-Medium',
+        sans-serif;
+    font-weight: 500;
+}
+
+
+%dmsans-400 {
+    font-family: 'DMSans-Regular',
+        sans-serif;
+    font-weight: 400;
+}
+
+%dmsans-500 {
+    font-family: 'DMSans-Medium',
+        sans-serif;
+    font-weight: 500;
+}
+
+%dmsans-700 {
+    font-family: 'DMSans-Bold',
+        sans-serif;
+    font-weight: 700;
+}
+
+
+%btn {
+    background-color: $accent;
+    cursor: pointer;
+    padding: 12px 15px;
+    color: #fff;
+    @extend %dmsans-400;
+}
