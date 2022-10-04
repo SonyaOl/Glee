@@ -31,6 +31,10 @@
 }
 
 .menu{
+    &__btn{
+        border: none;
+        background: none;
+    }
     &__list{
         display: flex;
     }
